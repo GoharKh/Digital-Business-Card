@@ -1,38 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: #23252C;
+  margin: 0;
+}
 .App {
+  width: 317px;
+  margin: auto;
+  background-color: #1A1B21;
+}
+.info {
+  width: 317px;
+  height: 500px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cvPic {
+  width: 317px;
+  height: 317px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main {
+  /* width: 317px; */
+  padding: 0 34px 24px 36px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer {
+  width: 317px;
+  height: 64px;
+  background-color: #161619;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  padding: 20px 75px;
+}
+.footer > img {
+  width: 25px;
+  height: 25px;
+}
+button {
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  /* text-align: center; */
+}
+.buttons {
+  width: 317px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px;
+}
+h1 {
+  font-size: 25px;
+  font-weight: bold;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+h2 {
+  font-size: 16px;
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+  font-size: 12.8px;
+  color: #F3BF99;
+}
+p {
+  font-size: 10.24px;
+  color: white;
+}
+.mail {
+  background-color: white;
+  color: black;
+}
+.linkedin {
+  background-color: #5093E2;
+  color: white;
+};
+button img {
+  /* position: static; */
+  width: 16px;
+  height: 16px;
+  left: 26.5px;
+  top: 9px;
+}
+.mailIcon {
+  width: 16px;
+  height: 16px;
+  left: 26.5px;
+  top: 9px;
 }
