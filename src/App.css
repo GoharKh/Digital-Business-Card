@@ -1,89 +1,94 @@
 * {
   box-sizing: border-box;
 }
-body{
-  background-color: #23252C;
+body {
   margin: 0;
+  font-family: 'Inter', sans-serif;
 }
-.App {
-  width: 317px;
+.nav {
+  width: 100%;
+  height: 100px;
+  background-color: #F55A5A;
+  padding: 40px 0;
+}
+.navContainer {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin: auto;
-  background-color: #1A1B21;
+  color: white;
+  font-size: 20px;
+}
+.navContainer img {
+  width: 30px;
+}
+.cards {
+  width: 470px;
+  margin: auto;
+}
+.card {
+  width: 471px;
+  height: 168px;
+  display: flex;
+  margin-top: 36px;
+}
+.card img {
+  width: 128px;
+  height: 168px;
+  object-fit: cover;
 }
 .info {
-  width: 317px;
-  height: 500px;
-  text-align: center;
-}
-.cvPic {
-  width: 317px;
-  height: 317px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.main {
-  /* width: 317px; */
-  padding: 0 34px 24px 36px;
-}
-.footer {
-  width: 317px;
-  height: 64px;
-  background-color: #161619;
   display: flex;
-  justify-content: space-between;
-  padding: 20px 75px;
+  flex-direction: column;
+  width: 326px;
+  height: 168px;
+  margin-left: 19px;
 }
-.footer > img {
-  width: 25px;
-  height: 25px;
-}
-button {
-  width: 115px;
-  height: 34px;
-  border-radius: 6px;
-  /* text-align: center; */
-}
-.buttons {
-  width: 317px;
+.firstLine {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  padding: 0 35px;
+  align-items: center;
 }
-h1 {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
+.location {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+.map {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+  padding-left: 12px;
 }
 h2 {
-  font-size: 16px;
-  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
 }
-h4 {
-  font-size: 12.8px;
-  color: #F3BF99;
-}
-p {
+.date {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
   font-size: 10.24px;
-  color: white;
+  line-height: 12px;
+  color: #2B283A;
 }
-.mail {
-  background-color: white;
-  color: black;
-}
-.linkedin {
-  background-color: #5093E2;
-  color: white;
-};
-button img {
-  /* position: static; */
-  width: 16px;
-  height: 16px;
-  left: 26.5px;
-  top: 9px;
-}
-.mailIcon {
-  width: 16px;
-  height: 16px;
-  left: 26.5px;
-  top: 9px;
+.description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2B283A;
 }
